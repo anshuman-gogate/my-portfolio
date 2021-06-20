@@ -215,7 +215,7 @@ header{
 }
 
 .nav-open .hamburger::before{
-    transform: rotate(90deg) translateX(-6px);
+    transform: rotate(90deg) translateX(-7px);
 }
 
 .nav-open .hamburger::after{
@@ -245,9 +245,9 @@ header{
     right: 0;
 }
 
-.hamburger::after{bottom: 6px;}
+.hamburger::after{bottom: 7px;}
 
-.hamburger::before{top: 6px;}
+.hamburger::before{top: 7px;}
 
 /* intro section */
 
