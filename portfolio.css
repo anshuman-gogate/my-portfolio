@@ -289,7 +289,7 @@ header{
         position: relative;
         left: -1.5rem;
         width: calc(100% + 1.5rem);
-        padding-left: calc(300px + 2.5rem);
+        padding-left: calc(300px + 3rem);
     }
 
     .intro__img{
