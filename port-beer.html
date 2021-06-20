@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | Portfolio</title>
+    <link rel="icon" href="img/siteLogo.png">
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- navigations -->
+    <header>
+        <button class="nav-toggle" aria-label="Navigation toggle button" id="nav-toggle">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header> <!-- /header-->
+
+     <!-- intro / home seciton -->
+     <section class="intro intro--portfolio-individual fade-in" id="home">
+        <h1 class="section__title section__title--intro">
+           The <strong>Beer App</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">beer app using punk api</p>
+        <img src="img/port-beer.jpeg" alt="A picture of Anshuman Goagte's beer app project" class="intro__img">
+    </section>
+
+    <!-- project description section -->
+    <div class="portfolio-item-individual fade-in">
+        <p>Beer app using HTML, CSS, JavaScript and Punk API</p>
+        <p>This beer app shows you different beers and also the information about each beer(you need to hover on the beer card). You can also filter beers by ABV and IBU plus also move across various pages. All the information is taken from Punk API.</p>
+        <p>I have used fetch() API, asycn/await, Flexbox, Grid, etc in this project.</p>
+        <a href="https://punk-beer-app-ag.netlify.app/" class="btn">See this project</a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:anshumangogate18@gmail.com" class="footer__link">anshumangogate18@gmail.com</a> 
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/anshuman-gogate-7489a8175/" target="_blank" class="social-list__link"><i class="fab fa-linkedin"></i></a>
+            </li>
+
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/18anshuman/" target="_blank" class="social-list__link"><i class="fab fa-instagram"></i></a>
+            </li>
+
+            <li class="social-list__item">
+                <a href="https://github.com/anshuman-gogate" target="_blank" class="social-list__link"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>

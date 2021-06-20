@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
+    <link rel="icon" href="img/siteLogo.png">
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- navigations -->
+    <header>
+        <button class="nav-toggle" aria-label="Navigation toggle button" id="nav-toggle">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header> <!-- /header-->
+
+     <!-- intro / home seciton -->
+     <section class="intro fade-in" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Anshuman Gogate</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front End Dev</p>
+        <img src="img/dp1.jpeg" alt="A picture of Anshuman Goagte smiling" class="intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services fade-in" id="services"> <!-- checking here-->
+        <h2 class="section__title section__title--services">What I do</h2>
+
+        <div class="services">
+            <div class="service">
+                <h3>Front end Development</h3>
+                <p>If you have a design then I can create the Front End code for it and turn your design into amazing website using HTML, CSS, JavaScript and React</p>
+            </div> 
+
+            <!-- <div class="service">
+                <h3>E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div> -->
+
+            <!-- <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div> -->
+        </div>
+
+        <a href="#work" class="btn">see my work</a>
+    </section>
+
+    <!-- about me -->
+    <section class="about-me fade-in" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer based out of Indore</p>
+        <img src="img/pinkKurta3.jpeg" alt="A picture of Anshuman standing in pink kurta and smiling" class="about-me__img">
+        <div class="about-me__body">
+            <p>Hi, I am Anshuman Gogate an Electronics and Communication engineering student currrently in my pre final year and a Front End Developer with good problem solving skills.</p>
+            <p>I have a good command over HTML, CSS, JavaScript and currrently I'm learning React. With my problem solving and other skills I can turn your designs into beautiful and optimized websites.</p>
+            <!-- <p>With my problem solving and other skills I can turn designs into beautiful and optimized websites.</p> -->
+            <!-- <p>I love learning new technologies and I'm always open to suggestions</p> -->
+        </div>
+    </section>
+
+    <!-- my work -->
+    <section class="my-work fade-in" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        
+        <div class="portfolio">
+            <!-- portfolio item 1 -->
+            <a href="port-todo.html" class="portfolio__item">
+                <img src="img/canva-todo.png" alt="Img of Anshuman's to do app project" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 2 -->
+            <a href="port-beer.html" class="portfolio__item">
+                <img src="img/canva-beer.png" alt="Img of Anshuman's beer app project" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 3 -->
+            <a href="port-weather.html" class="portfolio__item">
+                <img src="img/canva-weather.png" alt="Img of Anshuman's weather app project" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 4 -->
+            <a href="port-pacman.html" class="portfolio__item">
+                <img src="img/canva-pacman.png" alt="Img of Anshuman's pacman game project" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 5 -->
+            <a href="port-snake-game.html" class="portfolio__item">
+                <img src="img/canva-snake.png" alt="Img of Anshuman's snake game project" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 6 -->
+            <a href="port-simple-life.html" class="portfolio__item">
+                <img src="img/canva-simple.png" alt="Img of Anshuman's simple life blog project" class="portfolio__img">
+            </a>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:anshumangogate18@gmail.com" class="footer__link">anshumangogate18@gmail.com</a> 
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/anshuman-gogate-7489a8175/" target="_blank" class="social-list__link"><i class="fab fa-linkedin"></i></a>
+            </li>
+
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/18anshuman/" target="_blank" class="social-list__link"><i class="fab fa-instagram"></i></a>
+            </li>
+
+            <li class="social-list__item">
+                <a href="https://github.com/anshuman-gogate" target="_blank" class="social-list__link"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>

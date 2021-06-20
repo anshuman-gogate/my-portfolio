@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | Portfolio</title>
+    <link rel="icon" href="img/siteLogo.png">
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- navigations -->
+    <header>
+        <button class="nav-toggle" aria-label="Navigation toggle button" id="nav-toggle">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header> <!-- /header-->
+
+     <!-- intro / home seciton -->
+     <section class="intro intro--portfolio-individual fade-in" id="home">
+        <h1 class="section__title section__title--intro">
+            The <strong>pacman game</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">classic pacman game</p>
+        <img src="img/port-pacman.jpeg" alt="A picture of Anshuman Goagte's pacman game project" class="intro__img">
+    </section>
+
+    <!-- project description section -->
+    <div class="portfolio-item-individual fade-in">
+        <p>Pacman game using HTML, CSS and JavaScript</p>
+        <p>Classic pacman game, we have pacman and 4 ghosts that will try to eat pacman. Pacman can also eat ghosts but for this he needs to eat power pallets and then has 10 seconds to eat them. You need to score 500 points to win the game. These points can be scored by eating pacdots(1 point), power palletes(10 points) and ghosts(100 points).</p>
+        <p>This project helped me to use the concepts of JavaScript like classes, etc to our benifit.</p>
+        <p>I plan to optimize this game to make it faster and employ a shortest path algorithm so that ghosts chase pacman.</p>
+        <a href="https://pacman-game-ag.netlify.app/" class="btn">See this project</a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:anshumangogate18@gmail.com" class="footer__link">anshumangogate18@gmail.com</a> 
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/anshuman-gogate-7489a8175/" target="_blank" class="social-list__link"><i class="fab fa-linkedin"></i></a>
+            </li>
+
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/18anshuman/" target="_blank" class="social-list__link"><i class="fab fa-instagram"></i></a>
+            </li>
+
+            <li class="social-list__item">
+                <a href="https://github.com/anshuman-gogate" target="_blank" class="social-list__link"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
